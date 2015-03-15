@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/gray_303_bg"
+        android:gravity="center"
+        android:horizontalSpacing="0.5dp"
+        android:numColumns="50"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="0.5dp" >
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/progressbarContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gridView"
+        android:layout_marginTop="40dp"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="@string/hello_world"
+        android:textSize="13sp" />
+
+    <!-- 这里是面向用户的控制按钮区域 -->
+
+    <LinearLayout
+        android:id="@+id/controler_user"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@id/text_View"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/input_random"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:hint="100"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_random"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="@string/create"
+            android:textColor="@color/black_303_item_text_title"
+            android:textSize="20sp" />
+
+        <ToggleButton
+            android:id="@+id/btn_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black_303_item_text_title"
+            android:textOff="@string/start"
+            android:textOn="@string/stop"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="@string/clean"
+            android:textColor="@color/black_303_item_text_title"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <!-- 下面这个controler是开发控制,正式需要隐藏的 -->
+
+    <LinearLayout
+        android:id="@+id/controler"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@id/controler_user"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_inputxy"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="输入"
+            android:textColor="@color/black_303_item_text_title" />
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="检查"
+            android:textColor="@color/black_303_item_text_title" />
+    </LinearLayout>
+
+</RelativeLayout>

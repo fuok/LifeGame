@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- 注意：color.xml的#50000000前两位是透明的效果参数从00-99（透明-不怎么透明），后6位是颜色的设置 -->
+    <!-- 颜色资源,原先分的有点乱,很多色值都直接写在代码里了,应该按颜色种类区分,后缀加上备注例如版本和使用的地方 -->
+    <!-- Gray,例如Gray类,下面放各种不同的灰色,按这样分成White,Black,Green等等 -->
+    <color name="gray_303_bg">#f0f0f0</color>
+    <color name="gray_303_item_selected">#d6d6d6</color>
+    <color name="selectplay_selected">#AD0015</color>
+    <color name="gray_303_item_text_content">#808080</color>
+    <color name="gray_303_bg_darker">#404041</color>
+    <color name="down_303_bg_darker">#929497</color>
+    <!-- 下载时候的颜色 -->
+
+    <color name="gray_303_detail_content">#585858</color>
+    <!-- 最深的灰色，详情页正文 -->
+    <color name="gray_310_lable_unselected">#6D6E70</color>
+    <!-- 3.10新增,目前只在一个地方用到,频道页标签当处于没有被选中状态时 -->
+
+
+    <!-- Black -->
+    <color name="black_normal">#ff000000</color>
+    <color name="black_303_item_text_title">#404041</color>
+    <color name="black_half_transparent">#50000000</color>
+ <!-- 半透明黑色 -->
+
+
+    <!-- White -->
+    <color name="white">#ffffff</color>
+
+    <!-- Red -->
+    <color name="red_303">#BE1E2D</color>
+    <color name="css_a">#ff006699</color>
+    <color name="css_a_hover">#ffbc2a4d</color>
+    <color name="background">#ff000000</color>
+    <color name="control_back">#aa00003d</color>
+    <color name="dialog_back">#ffffffff</color>
+    <color name="back">#ffffffff</color>
+    <color name="loadingback">#a0000000</color>
+    <color name="gray">#ffacacac</color>
+    <color name="info_panel_bg">#000000</color>
+    <color name="bg_demo">@android:color/white</color>
+    <color name="prog_sel">#001B75BB</color>
+    
+    <color name="pink">#D58592</color>
+    
+    <!-- Yellow -->
+    <color name="chntype_down">#fdef00</color>
+    <color name="yellow">#F2D900</color>
+    <color name="text_num_gray">#333</color>
+    <color name="half_transparent">#000000</color>
+    <color name="list_sel_cl">#58595b</color>
+    <color name="list_sel_more">#EFF1F3</color>
+    <color name="gr_bar_cl">#292929</color>
+    <color name="gr_bar_up_cl">#58585a</color>
+    <color name="pl_hdsd_bar_press">#FF0013</color>
+    <color name="pl_hdsd_bar_lc">#c7c7c7</color>
+    <color name="pl_bt_line_cl">#3e3e3e</color>
+    <!-- 分割线颜色 -->
+    <color name="line_divider_cl">#878787</color>
+    <!-- 剧集详情item背景颜色 -->
+    <!-- 分集按钮颜色 -->
+    <color name="tv_item_cl">#58595B</color>
+    <color name="tc_item_cl_down">#BE1E2D</color>
+    <color name="half_white">#90000000</color>
+    <color name="more_info">#EFF1F3</color>
+
+    <!-- 分享背景颜色 -->
+    <color name="bg_share">#EDEDED</color>
+
+    <!-- 精品推荐底部进度条颜色 -->
+    <color name="jptj_progress">#8BC53F</color>
+    <color name="bg_collect">#A6A8AB</color>
+
+    <!-- 侧滑菜单点击效果 -->
+    <color name="tj_bg_selector">#8E0007</color>
+
+    <!-- 频道分类背景颜色 -->
+    <color name="channel_type_bg">#E0E6E7E8</color>
+
+    <!-- 竞猜选择背景颜色 -->
+    <color name="guessbg">#00C6BC</color>
+    <color name="guessbg02">#E6E7E8</color>
+    <color name="guessbgziti">#4E4E4E</color>
+    <color name="guessconfirm">#d82133</color>
+    <color name="guessbtncancel">#929497</color>
+
+</resources>
